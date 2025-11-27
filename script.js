@@ -13,6 +13,21 @@ function revealOnScroll() {
 window.addEventListener('scroll', revealOnScroll);
 window.addEventListener('load', revealOnScroll);
 
+// Parallax Effect
+const parallaxElements = document.querySelectorAll('[data-speed]');
+window.addEventListener('scroll', () => {
+  parallaxElements.forEach(el => {
+    const speed = el.getAttribute('data-speed');
+    el.style.transform = `translateY(${window.scrollY * speed}px)`;
+  });
+
+  // Header logo shrink & glow
+  const logo = document.getElementById('logo');
+  let shrink = Math.min(1, 1 - window.scrollY/1000);
+  logo.style.transform = `scale(${shrink}) rotate(${window.scrollY/200}deg)`;
+  logo.style.boxShadow = `0 0 ${30*shrink}px rgba(0,255,255,${shrink})`;
+});
+
 // Particle Background
 const canvas = document.getElementById('particles');
 const ctx = canvas.getContext('2d');
@@ -20,15 +35,15 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 const particles = [];
-const particleCount = 120;
+const particleCount = 160;
 
 for (let i = 0; i < particleCount; i++) {
   particles.push({
     x: Math.random()*canvas.width,
     y: Math.random()*canvas.height,
     radius: Math.random()*2 + 1,
-    dx: (Math.random()-0.5)*0.5,
-    dy: (Math.random()-0.5)*0.5
+    dx: (Math.random()-0.5)*0.6,
+    dy: (Math.random()-0.5)*0.6
   });
 }
 
