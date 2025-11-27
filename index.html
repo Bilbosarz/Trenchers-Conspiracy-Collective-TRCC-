@@ -9,12 +9,10 @@
 </head>
 <body>
 
-<!-- Particle Background -->
 <canvas id="particles"></canvas>
 
-<!-- Header -->
 <header class="container">
-  <img src="assets/logo.png" alt="$TRCC Logo">
+  <img src="assets/logo.png" alt="$TRCC Logo" id="logo">
   <nav>
     <a href="#about">About</a>
     <a href="#tokenomics">Tokenomics</a>
@@ -22,8 +20,7 @@
   </nav>
 </header>
 
-<!-- Hero Section -->
-<section class="hero">
+<section class="hero" data-speed="0.5">
   <h1 class="reveal">Trenchers Conspiracy Collective</h1>
   <p class="reveal">$TRCC – Where trenchers & crypto degenerates embrace conspiracies. Join early, uncover patterns, and be part of something unique.</p>
   <button class="reveal" onclick="document.getElementById('tokenomics').scrollIntoView({behavior: 'smooth'});">Explore Tokenomics</button>
@@ -36,16 +33,14 @@
   </div>
 </section>
 
-<!-- About Section -->
-<section id="about">
+<section id="about" data-speed="0.6">
   <h2 class="reveal">About $TRCC</h2>
   <div class="about reveal container">
     <p>$TRCC is designed for trenchers and crypto enthusiasts who share a fascination with conspiracies. Backed by a crew that understands the patterns others can’t, $TRCC brings a unique, meme-ready, and premium experience for early supporters. Experience the thrill of discovery and community.</p>
   </div>
 </section>
 
-<!-- Tokenomics Section -->
-<section id="tokenomics">
+<section id="tokenomics" data-speed="0.7">
   <h2 class="reveal">Tokenomics</h2>
   <div class="tokenomics reveal container">
     <table>
@@ -73,8 +68,7 @@
   </div>
 </section>
 
-<!-- FAQ Section -->
-<section id="faq">
+<section id="faq" data-speed="0.8">
   <h2 class="reveal">FAQ</h2>
   <div class="faq container">
     <div class="faq-item reveal">
@@ -90,7 +84,6 @@
   </div>
 </section>
 
-<!-- Footer -->
 <footer>
   <p>&copy; 2025 Trenchers Conspiracy Collective | $TRCC</p>
 </footer>
