@@ -9,6 +9,9 @@
 </head>
 <body>
 
+<!-- Particle Background -->
+<canvas id="particles"></canvas>
+
 <!-- Header -->
 <header class="container">
   <img src="assets/logo.png" alt="$TRCC Logo">
@@ -25,11 +28,11 @@
   <p class="reveal">$TRCC – Where trenchers & crypto degenerates embrace conspiracies. Join early, uncover patterns, and be part of something unique.</p>
   <button class="reveal" onclick="document.getElementById('tokenomics').scrollIntoView({behavior: 'smooth'});">Explore Tokenomics</button>
   <div class="images-grid reveal">
-    <img src="assets/1lizard.png" alt="Lizard 1">
-    <img src="assets/2lizard.png" alt="Lizard 2">
-    <img src="assets/3lizard.png" alt="Lizard 3">
-    <img src="assets/4lizard.png" alt="Lizard 4">
-    <img src="assets/5lizard.png" alt="Lizard 5">
+    <img src="assets/1lizard.png" alt="Lizard 1" class="float-img">
+    <img src="assets/2lizard.png" alt="Lizard 2" class="float-img">
+    <img src="assets/3lizard.png" alt="Lizard 3" class="float-img">
+    <img src="assets/4lizard.png" alt="Lizard 4" class="float-img">
+    <img src="assets/5lizard.png" alt="Lizard 5" class="float-img">
   </div>
 </section>
 
@@ -93,5 +96,6 @@
 </footer>
 
 <script src="script.js"></script>
+<script src="particles.js"></script>
 </body>
 </html>
