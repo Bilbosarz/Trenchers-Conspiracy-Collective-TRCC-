@@ -1,86 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trenchers Conspiracy Collective – $TRCC</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trenchers Conspiracy Collective – $TRCC</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<!-- Particle Background -->
-<canvas id="particles"></canvas>
-
-<!-- Header -->
-<header>
-  <img src="assets/logo.png" alt="$TRCC Logo" id="logo">
-  <nav>
-    <a href="#about">About</a>
-    <a href="#tokenomics">Tokenomics</a>
-    <a href="#faq">FAQ</a>
-  </nav>
+<header class="header">
+    <img src="assets/logo.png" alt="$TRCC Logo" class="logo">
+    <h1>$TRCC – Trenchers Conspiracy Collective</h1>
+    <p>Funny how there’s actual scientific proof that trenchers + crypto degenerates share one obsession: <strong>CONSPIRACIES</strong>.</p>
+    <div class="hero-buttons">
+        <a href="https://x.com/kalleicey1" target="_blank" class="btn">Follow on X</a>
+        <a href="https://pump.fun/" target="_blank" class="btn buy-btn">BUY $TRCC</a>
+    </div>
 </header>
 
-<!-- Hero Section -->
-<section class="hero">
-  <div class="hero-content">
-    <img src="assets/logo.png" alt="$TRCC Logo" class="hero-logo">
-    <h1>Trenchers Conspiracy Collective</h1>
-    <h2 class="ticker">$TRCC</h2>
-    <p>The token where trenchers & crypto degenerates embrace conspiracies. Be early, uncover patterns, and join a premium community-driven launch.</p>
-    <button onclick="document.getElementById('tokenomics').scrollIntoView({behavior:'smooth'})">Explore Tokenomics</button>
-  </div>
-  <div class="lizard-grid">
-    <img src="assets/1lizard.png" alt="Lizard 1" class="float-img">
-    <img src="assets/2lizard.png" alt="Lizard 2" class="float-img">
-    <img src="assets/3lizard.png" alt="Lizard 3" class="float-img">
-    <img src="assets/4lizard.png" alt="Lizard 4" class="float-img">
-    <img src="assets/5lizard.png" alt="Lizard 5" class="float-img">
-  </div>
+<section class="tokenomics">
+    <h2>Tokenomics</h2>
+    <p>Percentages may adjust as token price evolves and community grows — designed to maximize growth while keeping security and trust high.</p>
+    <table>
+        <tr>
+            <th>Allocation</th>
+            <th>Percentage</th>
+            <th>Rationale</th>
+        </tr>
+        <tr>
+            <td>Liquidity Pool</td>
+            <td>60%</td>
+            <td>High liquidity ensures smooth trading and long-term stability.</td>
+        </tr>
+        <tr>
+            <td>Community Rewards & Airdrops</td>
+            <td>20%</td>
+            <td>Encourages adoption, viral growth, and rewards early holders.</td>
+        </tr>
+        <tr>
+            <td>Marketing & Partnerships</td>
+            <td>10%</td>
+            <td>Promotes the token responsibly without appearing like a dump.</td>
+        </tr>
+        <tr>
+            <td>Team & Founders</td>
+            <td>5%</td>
+            <td>Small allocation shows the team is committed, not cashing out early.</td>
+        </tr>
+        <tr>
+            <td>Reserve / Strategic Growth</td>
+            <td>5%</td>
+            <td>Flexible future use for ecosystem expansion and partnerships.</td>
+        </tr>
+    </table>
 </section>
 
-<!-- About Section -->
-<section id="about">
-  <h2>About $TRCC</h2>
-  <p>$TRCC is the official token for trenchers and crypto enthusiasts who share a fascination with conspiracies. Backed by a team that uncovers patterns no one else sees, $TRCC gives early supporters a premium, community-driven experience. Explore, learn, and join a project designed to run.</p>
+<section class="gallery">
+    <h2>Lizard Gallery</h2>
+    <div class="images">
+        <img src="assets/1lizard.png" alt="Lizard 1">
+        <img src="assets/2lizard.png" alt="Lizard 2">
+        <img src="assets/3lizard.png" alt="Lizard 3">
+        <img src="assets/4lizard.png" alt="Lizard 4">
+        <img src="assets/5lizard.png" alt="Lizard 5">
+    </div>
 </section>
 
-<!-- Tokenomics Section -->
-<section id="tokenomics">
-  <h2>Tokenomics</h2>
-  <table>
-    <tr><th>Allocation</th><th>Percentage</th></tr>
-    <tr><td>Liquidity Pool</td><td>50%</td></tr>
-    <tr><td>Community & Marketing</td><td>25%</td></tr>
-    <tr><td>Team & Founders</td><td>15%</td></tr>
-    <tr><td>Reserve / Strategic Growth</td><td>10%</td></tr>
-  </table>
-  <p style="text-align:center; margin-top:1rem; font-style:italic; font-size:0.9rem;">
-    Percentages may adjust as token price and ecosystem evolve.
-  </p>
-</section>
-
-<!-- FAQ Section -->
-<section id="faq">
-  <h2>FAQ</h2>
-  <div class="faq-item">
-    <h3>The funny thing is there is scientific proof</h3>
+<section class="faq">
+    <h2>FAQ</h2>
+    <p><strong>The funny thing is there is scientific proof</strong></p>
     <p><strong>Why Do Trenchers and Crypto Enthusiasts Share a Fascination with Conspiracies?</strong><br>
-      By Dr. A. R. Mendelson, Behavioral Scientist<br><br>
-      Trenchers—those drawn to underground, countercultural lifestyles—and cryptocurrency enthusiasts often share a curious trait: engagement with conspiratorial thinking. Psychological research explains this overlap.<br><br>
-      Both groups operate where mainstream narratives feel opaque or untrustworthy. Trenchers question norms; crypto users navigate decentralized systems. Humans’ pattern-detection naturally favors conspiratorial explanations.<br><br>
-      Social networks and online communities amplify alternative theories, strengthened by confirmation bias and the satisfaction of “uncovering hidden truths.”<br><br>
-      The shared fascination is scientifically explainable: cognitive bias, skepticism of authority, and social reinforcement—all combined into a fun but premium experience.
-    </p>
-  </div>
+    <em>By Dr. A. R. Mendelson, Behavioral Scientist</em></p>
+    <p>Trenchers—those drawn to underground, countercultural lifestyles—and cryptocurrency enthusiasts often share a curious trait: engagement with conspiratorial thinking.</p>
+    <p>Both groups operate where mainstream narratives feel opaque or untrustworthy. Trenchers question societal norms; crypto users navigate decentralized systems. Humans’ natural pattern-detection favors conspiratorial explanations.</p>
+    <p>Social networks and online communities amplify alternative theories, strengthened by confirmation bias and the satisfaction of “uncovering hidden truths.”</p>
+    <p>The shared fascination is scientifically explainable: cognitive bias, skepticism of authority, and social reinforcement—all combined into a fun but premium experience.</p>
 </section>
 
-<!-- Footer -->
 <footer>
-  <p>&copy; 2025 Trenchers Conspiracy Collective | $TRCC</p>
+    <p>Follow us on X: <a href="https://x.com/kalleicey1" target="_blank">@kalleicey1</a> | Buy $TRCC: <a href="https://pump.fun/" target="_blank">pump.fun</a></p>
+    <p>&copy; 2025 Trenchers Conspiracy Collective. All rights reserved.</p>
 </footer>
 
-<script src="script.js"></script>
 </body>
 </html>
