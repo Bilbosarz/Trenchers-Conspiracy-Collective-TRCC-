@@ -2,56 +2,77 @@
 
 ![TRCC Logo](assets/logo.png)
 
-$TRCC is the official token and community of the Trenchers Conspiracy Collective — a project for trenchers and crypto enthusiasts who share a fascination with conspiracies. Join early, uncover patterns, and be part of a unique community-driven crypto experience.
+---
+
+## About $TRCC
+
+$TRCC is the official token for trenchers and crypto enthusiasts who share one universal obsession: **CONSPIRACIES**.  
+
+Backed by a team that uncovers patterns no one else sees, $TRCC gives early supporters a premium, community-driven experience. Explore, learn, and join a project designed to run.  
+
+**Join the collective and be part of a token that embraces curiosity.**
 
 ---
 
-## 🚀 About $TRCC
+## Ticker
 
-$TRCC is built for trenchers and crypto enthusiasts who share a fascination with conspiracies. Backed by a team that uncovers patterns others can’t see, $TRCC offers a premium, early-adopter experience.
-
----
-
-## 📊 Tokenomics
-
-| Allocation                  | Percentage |
-|------------------------------|------------|
-| Liquidity Pool               | 50%        |
-| Community & Marketing        | 25%        |
-| Team & Founders              | 15%        |
-| Reserve / Strategic Growth   | 10%        |
-
-> Percentages might change as the token price and ecosystem evolve.
+**$TRCC** – Trenchers Conspiracy Collective
 
 ---
 
-## 🖼 Gallery
+## Tokenomics (Bullish & Trustworthy)
 
-| Lizard 1 | Lizard 2 | Lizard 3 |
-|----------|----------|----------|
-| ![1lizard](assets/1lizard.png) | ![2lizard](assets/2lizard.png) | ![3lizard](assets/3lizard.png) |
+| Allocation                     | Percentage | Rationale |
+|--------------------------------|-----------|-----------|
+| **Liquidity Pool**              | 60%       | High liquidity ensures smooth trading and long-term stability. |
+| **Community Rewards & Airdrops** | 20%       | Incentivizes adoption, viral growth, and rewards early holders. |
+| **Marketing & Partnerships**   | 10%       | Promotes the token responsibly without appearing like a dump. |
+| **Team & Founders**            | 5%        | Small allocation shows the team is committed, not cashing out early. |
+| **Reserve / Strategic Growth** | 5%        | Flexible future use for ecosystem expansion and partnerships. |
 
-| Lizard 4 | Lizard 5 |
-|----------|----------|
-| ![4lizard](assets/4lizard.png) | ![5lizard](assets/5lizard.png) |
+> Percentages may adjust slightly as token price evolves and community grows — designed to maximize growth while keeping security and trust high.
 
 ---
 
-## ❓ FAQ
+## Lizard Gallery
 
-### The funny thing is there is scientific proof
+![Lizard 1](assets/1lizard.png) ![Lizard 2](assets/2lizard.png) ![Lizard 3](assets/3lizard.png)  
+![Lizard 4](assets/4lizard.png) ![Lizard 5](assets/5lizard.png)  
+
+---
+
+## FAQ
+
+**The funny thing is there is scientific proof**
 
 **Why Do Trenchers and Crypto Enthusiasts Share a Fascination with Conspiracies?**  
-By Dr. A. R. Mendelson, Behavioral Scientist
+*By Dr. A. R. Mendelson, Behavioral Scientist*
 
-Interestingly, trenchers—those drawn to countercultural, underground lifestyles—and cryptocurrency enthusiasts often share a curious trait: engagement with conspiratorial thinking. Psychological research explains this overlap.
+Trenchers—those drawn to underground, countercultural lifestyles—and cryptocurrency enthusiasts often share a curious trait: engagement with conspiratorial thinking.  
 
-Both groups operate in environments where mainstream narratives seem opaque or untrustworthy. Trenchers question norms, while crypto users navigate decentralized systems. Humans’ pattern detection fosters conspiratorial explanations.
+Both groups operate where mainstream narratives feel opaque or untrustworthy. Trenchers question societal norms; crypto users navigate decentralized systems. Humans’ natural pattern-detection favors conspiratorial explanations.  
 
-Social networks amplify alternative theories, reinforced by confirmation bias and satisfaction of “uncovering hidden truths.” This shared fascination isn’t coincidence—it’s scientifically explainable.
+Social networks and online communities amplify alternative theories, strengthened by confirmation bias and the satisfaction of “uncovering hidden truths.”  
+
+> The shared fascination is scientifically explainable: cognitive bias, skepticism of authority, and social reinforcement—all combined into a fun but premium experience.
 
 ---
 
-## 🌐 Live Demo
+## How to Get $TRCC
 
-[View Live Website](https://your-github-username.github.io/your-repo-name/)
+1. Visit our official website: [TRCC Website](https://your-github-page-link)
+2. Connect your wallet and explore tokenomics
+3. Join our community channels for early updates and perks
+
+---
+
+## Contact & Community
+
+- Twitter/X: [@yourhandle](https://x.com/yourhandle)  
+- Discord: [Join our server](#)  
+
+---
+
+## License
+
+This project is **for community and educational purposes**. All images and code are hosted in this repository under standard GitHub usage.
