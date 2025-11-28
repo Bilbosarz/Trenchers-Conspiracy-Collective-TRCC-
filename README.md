@@ -66,10 +66,10 @@ Social networks and online communities amplify alternative theories, strengthene
 
 ---
 
-## Contact & Community
+## Community & Links
 
-- Twitter/X: [@yourhandle](https://x.com/yourhandle)  
-- Discord: [Join our server](#)  
+- X: [@kalleicey1](https://x.com/kalleicey1)  
+- Buy $TRCC: [pump.fun](https://pump.fun/)  
 
 ---
 
