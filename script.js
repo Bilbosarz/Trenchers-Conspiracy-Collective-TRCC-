@@ -1,37 +1,37 @@
-// Particle Background
-const canvas = document.getElementById('particles');
-const ctx = canvas.getContext('2d');
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-
-const particles = [];
-for(let i=0;i<250;i++){
-  particles.push({x:Math.random()*canvas.width, y:Math.random()*canvas.height, r:Math.random()*2+1, dx:(Math.random()-0.5)*0.7, dy:(Math.random()-0.5)*0.7});
-}
-
-function animate(){
-  ctx.clearRect(0,0,canvas.width,canvas.height);
-  particles.forEach(p=>{
-    ctx.beginPath();
-    ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
-    ctx.fillStyle="rgba(0,255,255,0.5)";
-    ctx.fill();
-    p.x+=p.dx;
-    p.y+=p.dy;
-    if(p.x<0||p.x>canvas.width)p.dx*=-1;
-    if(p.y<0||p.y>canvas.height)p.dy*=-1;
-  });
-  requestAnimationFrame(animate);
-}
-animate();
-
-window.addEventListener('resize',()=>{canvas.width=window.innerWidth; canvas.height=window.innerHeight;});
-
-// Floating lizard parallax
-const lizards = document.querySelectorAll('.float-img');
-window.addEventListener('scroll', ()=>{
-  let scroll = window.scrollY;
-  lizards.forEach((img,i)=>{
-    img.style.transform=`translateY(${Math.sin(scroll/100+i)*15}px) translateZ(${i*4}px) rotate(${scroll/500}deg)`;
-  });
+// Smooth scroll for internal links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e){
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
 });
+
+// Hero buttons hover glow effect (additional to CSS)
+const buttons = document.querySelectorAll('.btn');
+buttons.forEach(btn => {
+    btn.addEventListener('mouseenter', () => {
+        btn.style.boxShadow = '0 0 100px #00ffff';
+    });
+    btn.addEventListener('mouseleave', () => {
+        btn.style.boxShadow = '';
+    });
+});
+
+/* Optional: Countdown timer example
+const countdown = document.createElement('div');
+countdown.id = 'countdown';
+countdown.style.textAlign = 'center';
+countdown.style.color = '#00ffff';
+countdown.style.fontSize = '1.2rem';
+countdown.style.marginTop = '1rem';
+document.body.prepend(countdown);
+
+let count = 10; // example countdown seconds
+setInterval(() => {
+    countdown.textContent = `Next pump in: ${count} sec`;
+    count--;
+    if(count < 0) count = 10;
+}, 1000);
+*/
