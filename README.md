@@ -1,78 +1,61 @@
-# Trenchers Conspiracy Collective – $TRCC
+# 🦎 ConspiraCoin ($CNSP)
 
-![TRCC Logo](assets/logo.png)
+**Welcome to the official memecoin chaos portal!**
 
----
-
-## About $TRCC
-
-$TRCC is the official token for trenchers and crypto enthusiasts who share one universal obsession: **CONSPIRACIES**.  
-
-Backed by a team that uncovers patterns no one else sees, $TRCC gives early supporters a premium, community-driven experience. Explore, learn, and join a project designed to run.  
-
-**Join the collective and be part of a token that embraces curiosity.**
+A fully wild, visually striking, and interactive single-page site for ConspiraCoin. Powered by lizard overlords, armies of degens, and real conspiracy energy.
 
 ---
 
-## Ticker
+## Features
 
-**$TRCC** – Trenchers Conspiracy Collective
-
----
-
-## Tokenomics (Bullish & Trustworthy)
-
-| Allocation                     | Percentage | Rationale |
-|--------------------------------|-----------|-----------|
-| **Liquidity Pool**              | 60%       | High liquidity ensures smooth trading and long-term stability. |
-| **Community Rewards & Airdrops** | 20%       | Incentivizes adoption, viral growth, and rewards early holders. |
-| **Marketing & Partnerships**   | 10%       | Promotes the token responsibly without appearing like a dump. |
-| **Team & Founders**            | 5%        | Small allocation shows the team is committed, not cashing out early. |
-| **Reserve / Strategic Growth** | 5%        | Flexible future use for ecosystem expansion and partnerships. |
-
-> Percentages may adjust slightly as token price evolves and community grows — designed to maximize growth while keeping security and trust high.
+- **Animated psychedelic background!**
+- **GIGANTIC, overlapping lizard meme hero gallery.**
+- **Bursty color, glowing animations.**
+- **Humongous, chaotic hero section w/ slogan and ticker.**
+- **Massive, glowing meme buttons.**
+- **Responsive for mobile and desktop.**
+- **Marquee of conspiracy/meme messages.**
+- **Click FAQ for premium scientific conspiracy content (modal popup).**
+- **Footer with active lizard army.**
 
 ---
 
-## Lizard Gallery
+## Assets
 
-![Lizard 1](assets/1lizard.png) ![Lizard 2](assets/2lizard.png) ![Lizard 3](assets/3lizard.png)  
-![Lizard 4](assets/4lizard.png) ![Lizard 5](assets/5lizard.png)  
-
----
-
-## FAQ
-
-**The funny thing is there is scientific proof**
-
-**Why Do Trenchers and Crypto Enthusiasts Share a Fascination with Conspiracies?**  
-*By Dr. A. R. Mendelson, Behavioral Scientist*
-
-Trenchers—those drawn to underground, countercultural lifestyles—and cryptocurrency enthusiasts often share a curious trait: engagement with conspiratorial thinking.  
-
-Both groups operate where mainstream narratives feel opaque or untrustworthy. Trenchers question societal norms; crypto users navigate decentralized systems. Humans’ natural pattern-detection favors conspiratorial explanations.  
-
-Social networks and online communities amplify alternative theories, strengthened by confirmation bias and the satisfaction of “uncovering hidden truths.”  
-
-> The shared fascination is scientifically explainable: cognitive bias, skepticism of authority, and social reinforcement—all combined into a fun but premium experience.
+Add these files in an `assets` directory:
+- `logo.png`
+- `1lizard.png`
+- `2lizard.png`
+- `3lizard.png`
+- `4lizard.png`
+- `5lizard.png`
 
 ---
 
-## How to Get $TRCC
+## Usage
 
-1. Visit our official website: [TRCC Website](https://your-github-page-link)
-2. Connect your wallet and explore tokenomics
-3. Join our community channels for early updates and perks
+1. **Open `index.html` in your browser**  
+2. Or **deploy on GitHub Pages!**
+3. *No build step needed—HTML, CSS, JS and assets all included.*
 
 ---
 
-## Community & Links
+## Live Links
 
-- X: [@kalleicey1](https://x.com/kalleicey1)  
-- Buy $TRCC: [pump.fun](https://pump.fun/)  
+- [Follow on X](https://x.com/kalleicey1)
+- [Buy $CNSP](https://pump.fun/)
+
+---
+
+## FAQ (How to Use)
+
+- Click the **FAQ** button to read "Why Do Trenchers and Crypto Enthusiasts Share a Fascination with Conspiracies?" plus a scientific breakdown.
+- All styling and animations are handled by `style.css` and `scripts.js`.
 
 ---
 
 ## License
 
-This project is **for community and educational purposes**. All images and code are hosted in this repository under standard GitHub usage.
+MIT – Conspiracies for everyone.
+
+---
